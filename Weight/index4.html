@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles4.css">
+  <title>Weight Converter</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Weight Converter</h1>
+    <div class="input-section">
+      <label for="inputValue">Enter Weight:</label>
+      <input type="number" id="inputValue" placeholder="Enter weight">
+    </div>
+    <div class="input-section">
+      <label for="fromUnit">From Unit:</label>
+      <select id="fromUnit">
+        <option value="kg">Kilogram</option>
+        <option value="g">Gram</option>
+        <option value="lb">Pound</option>
+        <option value="mg">Miligram</option>
+      </select>
+    </div>
+    <div class="input-section">
+      <label for="toUnit">To Unit:</label>
+      <select id="toUnit">
+        <option value="kg">Kilogram</option>
+        <option value="g">Gram</option>
+        <option value="lb">Pound</option>
+        <option value="mg">Miligram</option>
+      </select>
+    </div>
+    <button id="convertBtn">Convert</button>
+    <div class="result-section">
+      <p>Converted Weight:</p>
+      <span id="result"></span>
+    </div>
+  </div>
+  <script src="script4.js"></script>
+</body>
+</html>

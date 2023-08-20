@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles3.css">
+  <title>Area Converter</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Area Converter</h1>
+    <div class="input-section">
+      <label for="inputValue">Enter Area:</label>
+      <input type="number" id="inputValue" placeholder="Enter area">
+    </div>
+    <div class="input-section">
+      <label for="fromUnit">From Unit:</label>
+      <select id="fromUnit">
+        <option value="sqkm">Square Kilometer</option>
+        <option value="sqm">Square Meter</option>
+        <option value="sqcm">Square Centimeter</option>
+        <option value="sqft">Square Foot</option>
+        <option value="sqin">Square Inch</option>
+      </select>
+    </div>
+    <div class="input-section">
+      <label for="toUnit">To Unit:</label>
+      <select id="toUnit">
+        <option value="sqkm">Square Kilometer</option>
+        <option value="sqm">Square Meter</option>
+        <option value="sqcm">Square Centimeter</option>
+        <option value="sqft">Square Foot</option>
+        <option value="sqin">Square Inch</option>
+      </select>
+    </div>
+    <button id="convertBtn">Convert</button>
+    <div class="result-section">
+      <p>Converted Area:</p>
+      <span id="result"></span>
+    </div>
+  </div>
+  <script src="script3.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+* {
+    background-image: url('./img/unitbackimg.png');
+}
+.container {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.box {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.box1 {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 40px;
+    color: rgb(247, 241, 241);
+    background-color: black;
+    width: 100px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.35s ease, color 0.35s ease;
+}
+.box1 a {
+    background-color: red;
+    border-radius: 20px;
+    color: rgb(250, 250, 250);
+    text-align:center;
+    width: 90px;
+    height: 30px;
+}
+.box1 :hover {
+    background-color: white;
+    color: black;
+}
